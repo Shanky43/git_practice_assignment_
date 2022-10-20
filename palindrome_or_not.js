@@ -1,7 +1,7 @@
-let str=madam;
+let str="madam";
 let rev="";
-for(i=str.length;i>=0;i++){
-rev=str[i];
+for(i=str.length-1;i>=0;i--){
+rev+=str[i];
 }
 if(str==rev){
 console.log(str,"string is a palindrome")
